@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <head>
-  <title>Roisin Mcnamara</title>
+  <title>Roisin's Food Blog</title>
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  </head>
   <style>
+  p {
+  	font-size:30px;
+  	font-family: 'Oswald', sans-serif;
+  }
     body {
       text-align: center;
       background: pink;
@@ -10,8 +16,15 @@
       color: black;
       font-family: helvetica;
     }
-    p {
+    p1 {
       font-size: 22px;
+      color: rgba(255, 0, 255,1);
+      font-family: Helvetica;
+      
+    }
+    p2 {
+    	color:rgba(255, 0, 255,1);
+    	
     }
     input {
       border: 0;
@@ -22,11 +35,36 @@
       background: yellow;
       color: black;
     }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    img { 
+    	height: 250px;
+    	width: 250px;
+    	border: 7px solid white;
+    	border-radius: 20px;
+    }
   </style>
-</head>
+
 <body>
+	<p>Roisin's Food Blog</p>
+	<div>
   <img src="http://i.imgur.com/t3geMOas.jpg?1">
-  <p>Hi! I'm Roisin, a student at Edinburgh University. Say hello!</p>
-  <input type="email" placeholder="Your email">
+</div>
+<ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Restaurant reviews</a></li>
+      <li><a href="#">Recipes</a></li>
+    </ul>
+  </header>
+<div>
+  <p1>Hi! I'm Roisin, a student at Edinburgh University.</p1>
+</div>
+<div>
+<p2> This is my food blog </p2>
+</div>
+  <input type="search" placeholder="Search">
   <input type="submit">
 </body>
